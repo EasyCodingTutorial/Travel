@@ -1,0 +1,45 @@
+@import "../../App.css";
+
+/* Footer Start */
+footer {
+  background: var(--black);
+  padding: 20px;
+}
+footer .container {
+  color: var(--white) !important;
+}
+footer .container .row {
+  border-bottom: 2px solid var(--white);
+}
+footer .container h6 {
+  font-size: 40px;
+  color: var(--white) !important;
+  margin: 10px auto;
+}
+footer .container i {
+  display: block;
+  padding-left: 15px;
+  margin: 10px auto;
+}
+footer .container i a {
+  padding-left: 15px;
+  color: var(--white) !important;
+  text-decoration: none !important;
+}
+footer .container i:hover a {
+  color: var(--main) !important;
+  font-weight: 500;
+  padding-left: 25px;
+}
+footer .custom_content {
+  text-align: center;
+  margin: 15px auto;
+}
+footer .custom_content h6 {
+  font-size: 20px;
+  color: var(--white);
+}
+footer .custom_content h6:hover {
+  cursor: pointer;
+}
+/* Footer End */

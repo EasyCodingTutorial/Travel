@@ -1,0 +1,41 @@
+@import "../../App.css";
+
+.header {
+  position: relative;
+  z-index: -1;
+}
+.header img {
+  height: 95vh;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.header .Overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: var(--black);
+  opacity: 0.4;
+  z-index: 1;
+}
+.header .Content {
+  position: absolute;
+  top: 60%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  background: var(--white);
+  padding: 20px;
+  z-index: 10;
+}
+.header .Content h6 {
+  font-size: 65px;
+  font-weight: 600;
+  z-index: 10;
+}
+.header .Content p {
+  font-size: 12px;
+  z-index: 10;
+}

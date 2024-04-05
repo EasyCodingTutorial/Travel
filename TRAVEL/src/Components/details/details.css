@@ -1,0 +1,28 @@
+@import "../../App.css";
+.details {
+  margin-bottom: 200px;
+}
+.details .box {
+  box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.3),
+    inset 10px 10px 10px -10px rgba(0, 0, 0, 0.8);
+  padding: 20px;
+}
+.details .box i {
+  font-size: 40px;
+  color: var(--main);
+  margin: 10px auto;
+}
+.details h6 {
+  font-weight: 600;
+  font-size: 30px;
+}
+.details .mid {
+  margin-top: 50px;
+}
+.details p {
+  font-size: 12px;
+}
+.details a {
+  color: var(--main);
+  font-weight: 600;
+}

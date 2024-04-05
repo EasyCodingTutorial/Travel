@@ -1,0 +1,52 @@
+@import "../../App.css";
+
+.testi {
+  margin-bottom: 200px;
+  position: relative;
+}
+.testi .content {
+  text-align: center;
+  margin: 70px auto;
+}
+.testi .content h6 {
+  font-weight: 600;
+  font-size: 40px;
+}
+.testi .box {
+  box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.3),
+    inset 10px 10px 10px -10px rgba(0, 0, 0, 0.9);
+  padding: 20px;
+  position: relative;
+  cursor: pointer;
+}
+.testi .box:hover {
+  transform: translateY(-10px);
+}
+.testi img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -100px;
+  right: 0;
+}
+.testi .row {
+  margin: 50px auto;
+}
+.testi .mid {
+  margin-top: 50px;
+}
+.testi .box p {
+  font-size: 14px;
+}
+.testi .box i {
+  font-size: 30px;
+  color: var(--main);
+  margin: 10px auto;
+}
+.testi .box h5 {
+  font-weight: 600;
+  font-size: 20px;
+  margin: 10px auto;
+}
